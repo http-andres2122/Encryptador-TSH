@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <meta charset="UTF-8">
+        <title>Encryptador - TSH</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <h1 class="titulo">Encriptador de Texto con <span>JavaScript</span></h1>
+        <main class="main">
+            <section class="code box">
+                <form id="formulario">
+                    <label for="input-texto">Solo letras minúsculas, sin acentos</label>
+                <textarea class="text-input" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui" rows="5" cols="50"></textarea>
+
+                <div class="button-container">
+                    <input class="btn" type="submit" value="Encriptar❗❗" id="encrypt">
+                    <input class="btn" type="submit" value="Desencriptar❗❗" id="decrypt">
+                </div>
+                
+                </form>
+            
+            </section>
+            
+            <section class="result box">
+
+                <label for="text-result">Mensaje encriptado:</h2></label>
+                
+                <textarea class="text-input" name="text-result" id="text-result"rows="5" cols="50"></textarea>              
+                <input class="btn" type="submit" value="Copiar texto" 
+                id="copyB">
+            
+            </section>
+            
+        </main>
+        <footer class="footer">
+            <p>Hecho por <span><a href="https://github.com/http-andres2122">http.andres2122</a></span> | &copy; 2023</p>
+        </footer>
+    <script src="js/script.js"></script>
+    </body>
+</html>
